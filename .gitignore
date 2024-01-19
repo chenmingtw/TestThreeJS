@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Dependency directory
+lib/
+
+# Local server files
+.server/
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Temp files
+*.tmp
+
+# Environment variables
+.env
+
+# Thumbnails
+Thumbs.db
