@@ -19,6 +19,8 @@ function init() {
   camera.position.set(0, 1.6, 3);
 
   scene = new THREE.Scene();
+  scene.background = new THREE.Color(0.3, 0.5, 0.8);
+  scene.fog = new THREE.Fog("gold", 1, 80);
 
   // model
   const loader = new GLTFLoader().setPath('src/assets/cathedral/');
